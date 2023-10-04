@@ -2244,7 +2244,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background-image: url(../../images/english-academia.jpeg);
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2324,7 +2324,14 @@ input, select, textarea {
 	h1 {
 		font-family: 'Gloock', serif,;
 		font-family: cursive;
-		background-color: rgba(36, 29, 29, 0.904);
+		font-size: 200%;
+		background-color: rgb(177, 162, 162);
+
+		
 	}
 
-	
+	.photo-of-myself {
+		max-width: 40%;
+		padding: 5%;
+		
+	}
