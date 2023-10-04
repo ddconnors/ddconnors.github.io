@@ -91,7 +91,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: url(../../images/roses.jpg);
 		height: 100%;
 		min-width: 320px;
 	}
@@ -2047,7 +2047,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: url(../../images/pictureframes.jpg);
 			}
 
 		.main.dark {
@@ -2254,7 +2254,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url(../../images/gothiccastle.jpg);
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2263,7 +2263,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url(../../images/backgroundaesthetic.jpg);
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2314,13 +2314,26 @@ input, select, textarea {
 		h2 {
 			font-family:'Gloock', serif;
 			font-size: 250% ;
-			color: #39454b;
+		}
+		.mainheader {
+			font-family:'Gloock', serif;
+			font-size: 250% ;
+			color: rgb(146, 142, 138);
+			background-color: rgb(60, 60, 62);
 		} 
 
 		p {
 			font-family: 'Gloock', serif;
 			font-size: 150%;
 		}
+
+		.myintro {
+			font-family: 'Gloock', serif;
+			font-size: 150%;
+			color:rgb(60, 60, 62) ;
+			background-color: rgb(168, 157, 157);
+		}
+	
 	h1 {
 		font-family: 'Gloock', serif,;
 		font-family: cursive;
@@ -2334,4 +2347,25 @@ input, select, textarea {
 		max-width: 40%;
 		padding: 5%;
 		
+	}
+
+	.contentwork {
+		text-align: center;
+	}
+
+	.mywork {
+		background-color: #ffffff;
+	}
+
+	.description {
+		background-color: #ffffff;
+	}
+
+	.contact {
+		background-color: #ffffff
+	}
+
+	.fallreading {
+		max-width: 60%;
+		padding: 5%;
 	}
